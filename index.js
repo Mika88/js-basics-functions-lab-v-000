@@ -2,9 +2,9 @@
 function distanceFromHqInBlocks(block) {
   let distanceBlock
   if (block > 42) {
-    distance = block - 42;
+    distanceBlock = block - 42;
   } else {
-    distance = 42 - block;
+    distanceBlock = 42 - block;
   }
   return distance
 }
@@ -12,4 +12,15 @@ function distanceFromHqInBlocks(block) {
 function  distanceFromHqInFeet(block) {
   let distanceFeet = distanceFromHqInBlocks(block) * 264;
   return distanceFeet
+}
+
+function distanceTravelledInFeet(start, finish) {
+  let distance
+  if (start > finish) {
+    distance = block - 42;
+  } else {
+    distance = 42 - block;
+  }
+  return distance
+}
 }
