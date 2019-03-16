@@ -23,3 +23,13 @@ function distanceTravelledInFeet(start, finish) {
   }
   return distance
 }
+
+function calculatesFarePrice(start, destination) {
+  let price
+  if (distanceTravelledInFeet(start, destination) < 400) {
+    price = 0;
+  } else if {
+    
+  }
+  
+}
