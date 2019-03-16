@@ -17,9 +17,9 @@ function  distanceFromHqInFeet(block) {
 function distanceTravelledInFeet(start, finish) {
   let distance
   if (start > finish) {
-    distance = start - finish;
+    distance = (start - finish) * 264;
   } else {
-    distance = finish - start;
+    distance = (finish - start) * 264;
   }
   return distance
 }
