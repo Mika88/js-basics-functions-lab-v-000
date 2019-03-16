@@ -23,4 +23,3 @@ function distanceTravelledInFeet(start, finish) {
   }
   return distance
 }
-}
